@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.mfa_case_study.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "D:\\Yichen_TakehikoClass_2019Fall\\MFA_Case_Study\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "MFA_Case_Study [Testing]"
+        }
+      }
+    }
+  ]
+}

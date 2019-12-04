@@ -228,6 +228,7 @@ namespace Valve.VR
                 if (progressBarOverlayHandle != OpenVR.k_ulOverlayHandleInvalid)
                     overlay.SetOverlayAlpha(progressBarOverlayHandle, alpha);
             }
+
         }
 
         // Corourtine to handle all the steps across loading boundaries.

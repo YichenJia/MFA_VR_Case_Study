@@ -8,21 +8,14 @@ using Valve.VR.Extras;
 public class SceneHandler : MonoBehaviour
 {
     public SteamVR_LaserPointer laserPointer;
-    public GameObject placeHolder;
 
-    void Awake()
-    {
-        laserPointer.PointerIn += PointerInside;
-        laserPointer.PointerOut += PointerOutside;
-        laserPointer.PointerClick += PointerClick;
-    }
 
     public void PointerClick(object sender, PointerEventArgs e)
     {
         if (e.target.name == "Button")
         {
             Debug.Log("Button was clicked");
-            placeHolder.SetActive(true);
+            // placeHolder.SetActive(true);
         }
     }
 

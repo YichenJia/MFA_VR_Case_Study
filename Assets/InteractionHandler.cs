@@ -9,7 +9,14 @@ using Valve.VR.Extras;
 public class InteractionHandler : MonoBehaviour
 {
     public SteamVR_LaserPointer laser;
-    public GameObject ToBeActivate;
+    public GameObject Activator1;
+    public GameObject ToBeActivate1;
+    public GameObject Activator2;
+    public GameObject ToBeActivate2;
+    public GameObject Activator3;
+    public GameObject ToBeActivate3;
+    public GameObject Activator4;
+    public GameObject ToBeActivate4;
 
     void Awake()
     {
@@ -22,14 +29,24 @@ public class InteractionHandler : MonoBehaviour
     {
         Debug.Log("click");
         Debug.Log(e.target.name);
-        if (e.target.name == "Sphere-SwitchScene")
+        if (e.target.name == Activator1.name)
         {
-            Debug.Log("Sphere-SwitchScene was clicked");
-            ToBeActivate.SetActive(true);
+            ToBeActivate1.SetActive(true);
         }
-        else if (e.target.name == "Button")
+        else if (e.target.name == Activator2.name)
         {
-            Debug.Log("Button was clicked");
+            Debug.Log("click2");
+            ToBeActivate2.SetActive(true);
+        }
+        else if (e.target.name == Activator3.name)
+        {
+            Debug.Log("click3");
+            ToBeActivate3.SetActive(true);
+        }
+        else if (e.target.name == Activator4.name)
+        {
+            Debug.Log("click4");
+            ToBeActivate4.SetActive(true);
         }
     }
 

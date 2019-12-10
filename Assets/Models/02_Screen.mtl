@@ -1,0 +1,31 @@
+# Rhino
+newmtl 04_Screen_Front_Metashape
+Ka 1.0000 1.0000 1.0000
+Kd 1.0000 1.0000 1.0000
+Ks 0.0000 0.0000 0.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd 04_Screen_Front_Metashape.jpg
+newmtl 04_Screen_Back_Metashape
+Ka 1.0000 1.0000 1.0000
+Kd 1.0000 1.0000 1.0000
+Ks 0.0000 0.0000 0.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+map_Kd 04_Screen_Back_Metashape.jpg
+newmtl Plaster
+Ka 0.0000 0.0000 0.0000
+Kd 0.2863 0.1725 0.1451
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 1.0000
+Ns 0.0000
+newmtl Custom
+Ka 0.0000 0.0000 0.0000
+Kd 1.0000 1.0000 1.0000
+Ks 1.0000 1.0000 1.0000
+Tf 0.0000 0.0000 0.0000
+d 0.0000
+Ns 0.0000
